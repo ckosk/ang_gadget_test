@@ -1,0 +1,35 @@
+title: Square POS Gadget
+title_url: https://www.reveldigital.com/
+description: A menu gadget for displaying product information from Square POS
+author: Revel Digital
+background: transparent
+
+requirements:
+  - reveldigital
+  - offline
+  - webfont
+
+locales:
+  - messages: https://reveldigital.github.io/reveldigital-gadgets/ALL_ALL.xml
+
+  - lang: ru
+    messages: https://reveldigital.github.io/reveldigital-gadgets/ALL_ALL.xml
+
+prefs:
+  - name: myAccessPref
+    display_name: Access Token
+    datatype: string
+    default_value:
+    required: true
+
+  - name: mySearchPref
+    display_name: Filter Items
+    datatype: string
+    default_value:
+    required: true
+
+  - name: myStylePref
+    display_name: Sample style preference
+    datatype: style
+    default_value: font-family:Verdana;color:rgb(255, 255, 255);font-size:18px;
+    required: true
