@@ -10,8 +10,7 @@ gitRemoteOriginUrl().then(name => {
     console.log(`🌎 Configuring gadget deployment URL: ${path}${pjson.name}.xml`);
 
     // Update angular.json baseHref/deployUrl with full path to our app
-    ajson.projects[pjson.name].architect.build.configurations.production.baseHref = path;
-    ajson.projects[pjson.name].architect.build.configurations.production.deployUrl = path;
+    ajson.projects['squarePOS'].architect.build.configurations.production.baseHref = path;
 
     fs.writeFile('./angular.json', JSON.stringify(ajson, null, 4), function writeJSON(err) {
         if (err) return console.log(err);
