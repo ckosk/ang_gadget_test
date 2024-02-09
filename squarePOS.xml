@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+  <ModulePrefs title="Square POS Gadget" title_url="https://www.reveldigital.com/" version="0.0.0" description="A menu gadget for displaying product information from Square POS" author="Revel Digital" background="transparent">
+    <Locale messages="https://reveldigital.github.io/reveldigital-gadgets/ALL_ALL.xml"/>
+    <Locale lang="ru" messages="https://reveldigital.github.io/reveldigital-gadgets/ALL_ALL.xml"/>
+    <Require feature="reveldigital"/>
+    <Require feature="offline"/>
+    <Require feature="webfont"/>
+    <UserPref name="myAccessPref" display_name="Access Token" datatype="string" required="true" multiple="false"/>
+    <UserPref name="mySearchPref" display_name="Filter Items" datatype="string" required="true" multiple="false"/>
+    <UserPref name="myStylePref" display_name="Sample style preference" datatype="style" default_value="font-family:Verdana;color:rgb(255, 255, 255);font-size:18px;" required="true" multiple="false"/>
+    <UserPref name="rdW" display_name="Width" datatype="hidden" default_value="280" required="true"/>
+    <UserPref name="rdH" display_name="Height" datatype="hidden" default_value="190" required="true"/>
+    <UserPref name="rdKey" datatype="hidden"/>
+    <UserPref name="ForeColor" datatype="hidden"/>
+    <UserPref name="BackColor" datatype="hidden"/>
+  </ModulePrefs>
+  <Content type="html"><![CDATA[<style type="text/css">
+        /*noinspection ALL*/
+        html {
+            width: __UP_rdW__px;
+            height: __UP_rdH__px;
+        }
+
+        /*noinspection ALL*/
+        body,
+        app-root {
+            background: transparent;
+            width: __UP_rdW__px;
+            height: __UP_rdH__px;
+            overflow: hidden;
+        }
+    </style><link rel="stylesheet" href="styles.ef46db3751d8e999.css"><body>
+    <app-root></app-root>
+<script src="runtime.551a0941c4b2a21a.js" type="module"></script><script src="polyfills.3f30e99006756a31.js" type="module"></script><script src="main.4feba4db9db041b3.js" type="module"></script></body>]]></Content>
+</Module>
