@@ -1,0 +1,5 @@
+<h2>State: {{ state }}</h2>
+<h2>Local Time: {{ localTime | date:'medium' }}</h2>
+
+<h2>Access Token: {{ prefs.getString('myAccessPref') }}</h2>
+<h2>Search Pref: {{ prefs.getString('mySearchPref') }}</h2>
