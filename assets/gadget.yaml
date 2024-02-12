@@ -19,13 +19,13 @@ prefs:
   - name: myAccessPref
     display_name: Access Token
     datatype: string
-    default_value:
+    default_value: EAAAlwDGyvKT3gzpY1jHD_cGeyQFYQoG9eyZfrQuBJiJckReWS2qICrPX0_H6yYR
     required: true
 
   - name: mySearchPref
     display_name: Filter Items
     datatype: string
-    default_value:
+    default_value: apple
     required: true
 
   - name: myStylePref
