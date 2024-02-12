@@ -1,1 +1,0 @@
-var webGlObject={init:function(){console.log("Got some js")}};

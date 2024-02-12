@@ -7,7 +7,7 @@
     <Require feature="offline"/>
     <Require feature="webfont"/>
     <UserPref name="myAccessPref" display_name="Access Token" datatype="string" default_value="EAAAlwDGyvKT3gzpY1jHD_cGeyQFYQoG9eyZfrQuBJiJckReWS2qICrPX0_H6yYR" required="true" multiple="false"/>
-    <UserPref name="mySearchPref" display_name="Filter Items" datatype="string" default_value="apple" required="true" multiple="false"/>
+    <UserPref name="mySearchPref" display_name="Filter Items" datatype="string" required="true" multiple="false"/>
     <UserPref name="myStylePref" display_name="Sample style preference" datatype="style" default_value="font-family:Verdana;color:rgb(255, 255, 255);font-size:18px;" required="true" multiple="false"/>
     <UserPref name="rdW" display_name="Width" datatype="hidden" default_value="280" required="true"/>
     <UserPref name="rdH" display_name="Height" datatype="hidden" default_value="190" required="true"/>
@@ -30,7 +30,7 @@
             height: __UP_rdH__px;
             overflow: hidden;
         }
-    </style><link rel="stylesheet" href="https://ckoski.com/ang_gadget_test/styles.ef46db3751d8e999.css"><body>
+    </style><link rel="stylesheet" href="https://ckosk.github.io/ang_gadget_test/styles.ef46db3751d8e999.css"><body>
     <app-root></app-root>
-<script src="https://ckoski.com/ang_gadget_test/runtime.551a0941c4b2a21a.js" type="module"></script><script src="https://ckoski.com/ang_gadget_test/polyfills.3f30e99006756a31.js" type="module"></script><script src="https://ckoski.com/ang_gadget_test/scripts.ae6b62df363739b7.js" defer></script><script src="https://ckoski.com/ang_gadget_test/main.c55933670ee75109.js" type="module"></script></body>]]></Content>
+<script src="https://ckosk.github.io/ang_gadget_test/runtime.a07342ae29f1e475.js" type="module"></script><script src="https://ckosk.github.io/ang_gadget_test/polyfills.3f30e99006756a31.js" type="module"></script><script src="https://ckosk.github.io/ang_gadget_test/main.3e8ea7a5d16d2152.js" type="module"></script></body>]]></Content>
 </Module>
