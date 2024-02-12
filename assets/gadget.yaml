@@ -19,7 +19,7 @@ prefs:
   - name: myAccessPref
     display_name: Access Token
     datatype: string
-    default_value: EAAAlwDGyvKT3gzpY1jHD_cGeyQFYQoG9eyZfrQuBJiJckReWS2qICrPX0_H6yYR
+    default_value: 
     required: true
 
   - name: mySearchPref
@@ -29,7 +29,7 @@ prefs:
     required: true
 
   - name: myAPIPref
-    display_name: Testing
+    display_name: Testing Dummy API
     datatype: string
     default_value: 1
     required: true
