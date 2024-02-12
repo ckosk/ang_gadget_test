@@ -28,6 +28,12 @@ prefs:
     default_value:
     required: true
 
+  - name: myAPIPref
+    display_name: Testing
+    datatype: string
+    default_value: 1
+    required: true
+
   - name: myStylePref
     display_name: Sample style preference
     datatype: style
